@@ -11,15 +11,15 @@ require 'rake/rdoctask'
 require 'rake/testtask'
 
 spec = Gem::Specification.new do |s|
-  s.name = 'karakuri'
+  s.name = 'bao-karakuri'
   s.version = '0.1.2'
   s.has_rdoc = true
   s.extra_rdoc_files = ['README.md', 'LICENSE']
-  s.summary = 'Some handy helpers for toto and the likes...'
+  s.summary = 'Fork of 5v3n/karakuri - Some handy helpers for toto and the likes...'
   s.description = s.summary
-  s.author = 'Sven Kraeuter'
-  s.email = 'mail@5v3n.com'
-  s.homepage = 'http://github.com/5v3n/karakuri'
+  s.author = 'Bao Pham'
+  s.email = 'gbaopham@gmail.com'
+  s.homepage = 'http://github.com/baopham/karakuri'
   # s.executables = ['your_executable_here']
   s.files = %w(LICENSE README.md Rakefile) + Dir.glob("{bin,lib,spec}/**/*")
   s.require_path = "lib"
